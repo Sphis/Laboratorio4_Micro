@@ -1,0 +1,13 @@
+ \section{Anexos}
+A continuación, se muestran las hojas del fabricante de los componentes usados para este laboratorio. 
+
+%\includepdf[pages=1-14]{./Documentos/A000066-datasheet.pdf}
+\foreach \page in {1, 20, 21,22, 35, 36, 43,45, 53-70, 93,94}{
+  \includepdf[pages=\page]{./Documentos/stm32f429zi.pdf}
+}
+\foreach \page in {1, 15}{
+  \includepdf[pages=\page]{./Documentos/l3gd20.pdf}
+}
+\foreach \page in {7}{
+  \includepdf[pages=\page]{./Documentos/ILI9341.pdf}
+}
